@@ -1,4 +1,4 @@
-body{
+body {
   margin:0;
 }
 
@@ -9,7 +9,7 @@ article {
   padding: 10px;
 }
 
-img{
+img {
   width: 100%;
   height: auto;
 }
@@ -46,25 +46,3 @@ a {
 a:hover{
   color: #999;
 }
-
-
-/*
-css komment:
-
-a css formayasanal fontos h sorban menjen a html tegekhez kepest
-
-a css szelektorokon belul erdemes vmi logikat tartani
-
-szinkeveres:
-
-    additiv
-    rgb szinrendszer
-
-    szubsztraktiv
-      255 ennyit tud 8 byteon lekezelni
-      hexadecimalis
-
-      -strong-
-      -emfesize-
-      ha harom karakterrel adjak meg akkor 0-k kerulnek a karakterek koze
-*/
