@@ -1,0 +1,29 @@
+/*tobb szavas --> "string"
+  kiszedni az alap bongeszo beallitasait:
+    - normalize
+    - reset
+
+*/
+body {
+  color: #333;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Abril Fatface', serif;
+}
+
+.wrap {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(minimography_052_orig.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 100px 20px; /*top/bottom left/right*/
+  color: white
+}
