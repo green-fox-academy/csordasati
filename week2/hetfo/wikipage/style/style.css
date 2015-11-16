@@ -1,0 +1,124 @@
+body {
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.main-container {
+  background: yellow;
+  flex-basis: 100%; /*ez probaljon meg 100% lenni a tobbihey kepest*/
+  order: 1;
+}
+
+.main-header {
+  position: relative; /*innentol keydve ehhez kepest fog szamolni*/
+  height: 80px;
+  background: green;
+}
+
+.main-header ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-header nav, .search-menu {
+  position: absolute;
+}
+
+.user-menu {
+  right: 5px;
+  top: 0px;
+}
+
+.talk-menu {
+  left: 0px;
+  bottom: 0px;
+}
+
+.edit-menu {
+  right: 300px;
+  bottom: 0px;
+}
+
+.search-menu {
+  right: 0px;
+  bottom: 0px;
+  width: 300px;
+}
+
+.search-menu input {
+  width: 300px
+}
+
+.main-footer {
+  height: 80px;
+  background: purple;
+}
+
+.biography {
+   width: 270px;
+   background: #F9F9F9;
+   float: right;
+   border: 1px solid #aaa;
+   margin: 6px 0px 12px 12px;
+   box-sizing: border-box;
+   padding: 25px;
+}
+
+.main-sidebar {
+  background: aqua;
+  width: 176px;
+  order: 0;
+}
+
+.main-sidebar nav {
+  margin-left: 11.2px;
+  margin-right: 9.6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 14px;
+}
+
+h3 {
+  margin: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  font-size: 0.75em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.side-bar-nav {
+  top: 270px;
+}
+
+.main-sidebar li {
+  padding: 3px;
+}
+
+.main-sidebar-options {
+  padding-top: 16px;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  width: 160px;
+  height: 160px;
+}
+
+.main-sidebar-ul {
+  margin-left: 20px;
+}
+
+.main-sidebar-main-ul {
+  margin-left: 8px;
+}
