@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/style.css">
+    <title>wikiPage</title>
+    <script type="text/javascript">
+      function warning(){
+          alert("Your account is active!!!");
+      }
+    </script>
+  </head>
+  <body>
+      <div class="main-container">
+        <header class="main-header">
+          <nav class="user-menu">
+            <ul>
+              <li>Create Account</li>
+              <li>Log in</li>
+            </ul>
+          </nav>
+
+
+          <div class="">
+            <form class="search-menu" action="index.html" method="POST" action="kacsa">
+              <input class="header-textfield" type="text" placeholder="Search">
+              <input class="header-submit" type="submit">
+            </form>
+          </div>
+
+
+
+        </header>
+        <main class="main-content">
+           <h1>Create Account</h1>
+           <form class="signup">
+               <label for="username">Username</label><a class="help-link" href="#">(help me choose)</a>
+               <input autofocus required type="text" id="username" placeholder="Enter your username">
+               <label for="password">Password</label>
+               <input required type="password" id="password" placeholder="Enter a password">
+               <label for="password-confirmation">Confirm password</label>
+               <input required type="password" id="password-confirmation" placeholder="Enter password again">
+               <label for="email">Email address (optional)</label>
+               <input type="email" id="email" placeholder="Enter your email address">
+               <button type="submit" onclick="warning()">Create your account</button>
+           </form>
+           <p>
+             Wikipedia is made by people like you. 799,868,949 edits 5,011,836 articles 127,399 recent contributors
+           </p>
+         </main>
+
+        <footer class="main-footer">
+        </footer>
+
+      </div>
+      <aside class="main-sidebar">
+        <a href="#" class="logo">Wikipedia</a>
+        <!-- <img class="logo" src="style\images\logo1.png" alt="Margaret Hamilton" /> -->
+        <div class="main-sidebar-options">
+          <nav>
+            <ul class="main-sidebar-main-ul">
+              <li>Main Page</li>
+              <li>Contents</li>
+              <li>Featured content</li>
+              <li>Current content</li>
+              <li>Random article</li>
+              <li>Donate Wikipedia</li>
+              <li>Wikipedia Store</li>
+            </ul>
+          </nav>
+          <nav class="interaction">
+            <h3>
+              Intarction
+            </h3>
+            <ul class="main-sidebar-ul">
+              <li>Help</li>
+              <li>About Wikipedia</li>
+              <li>Community portal</li>
+              <li>Recent Changes</li>
+              <li>Contact People</li>
+            </ul>
+          </nav>
+          <nav>
+            <h3>
+              Tools
+            </h3>
+            <ul class="main-sidebar-ul">
+              <li>What links here</li>
+              <li>Related changes</li>
+              <li>Upload file</li>
+              <li>Special pages</li>
+              <li>Permanent link</li>
+              <li>Page information</li>
+              <li>Wikidata item</li>
+              <li>Cite this page</li>
+            </ul>
+          </nav>
+          <nav>
+            <h3>
+              Print/export
+            </h3>
+            <ul class="main-sidebar-ul">
+              <li>Create a book</li>
+              <li>Download as pdf</li>
+              <li>Printable version</li>
+            </ul>
+          </nav>
+          <nav>
+            <h3>
+              Languages
+            </h3>
+            <ul class="main-sidebar-ul">
+              <li>Hungary</li>
+              <li>English</li>
+              <li>German</li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+  </body>
+</html>
