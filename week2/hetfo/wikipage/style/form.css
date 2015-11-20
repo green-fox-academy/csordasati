@@ -1,0 +1,139 @@
+h2 {
+  border: none;
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.main-content > section {
+  display: flex;
+  flex-direction: row;
+}
+
+.signup {
+  margin-right: 100px;
+  padding-top: 10px;
+  width: 290px;
+}
+
+.help-link {
+  float: right;
+}
+
+.signup ::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.signup::-moz-placeholder {
+  font-style: italic;
+}
+
+.signup ::-ms-input-placeholder {
+  font-style: italic;
+}
+
+.signup ::placeholder {
+  font-style: italic;
+}
+
+.signup input:focus {
+  border-color: #347bff;
+  box-shadow: inset 0 0 0 2px #347bff;
+  outline: 0;
+}
+
+.signup button,
+.signup input {
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.captcha {
+  background: #f8f8f8;
+  border: 1px solid #c9c9c9;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.captcha-image {
+  background: #ffffff;
+  border: 1px solid #c9c9c9;
+  font-size: 0px;
+  height: 60px;
+  line-height: 1;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+@-webkit-keyframes grow {
+  0% { font-size: 0 }
+  100% { font-size: 30px }
+}
+@keyframes grow {
+  0% { font-size: 0 }
+  100% { font-size: 30px }
+}
+
+.captcha-image:hover .grows {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode:
+   forwards;
+  -webkit-animation-name: grow;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-name: grow;
+}
+
+#captcha-text:valid,
+#username:valid {
+  background: rgba(0, 127, 0, 0.5);
+}
+
+.signup button {
+  background: #00af89;
+  border: 1px solid #00af89;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius:4px;
+  color: #fff;
+  font-weight: bold;
+  padding: 7px;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.signup button:hover {
+  background: #008c6d;
+}
+
+.statistic {
+  text-align: center;
+}
+
+.statistic .fa {
+  float: left;
+  font-size: 60px;
+  padding: 10px 0 0;
+  opacity: 0.1;
+}
+
+.statistic h3 {
+  font-family: Georgia, serif;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.statistic p {
+  margin-left: 10px;
+}
+
+.statistic span {
+  font-size: 17px;
+}

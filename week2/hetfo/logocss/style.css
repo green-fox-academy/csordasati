@@ -1,0 +1,139 @@
+body {
+  background-color: #b2b2b2;
+}
+
+.ful {
+    position: absolute;
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    line-height: 0px;
+    border: 78.5px solid transparent;
+    border-left: 60px solid #00451f;
+    border-right: 60px solid #00451f;
+    left: 264px;
+    top: 104px;
+    z-index: 0;
+}
+
+.head {
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 0px;
+    border: 95.5px solid transparent;
+    border-radius: 65.5px;
+    border-top: 126.5px solid #007335;
+    left: 220px;
+    top: 182px;
+    z-index: 10px
+}
+
+.body {
+      background-color: #00451f;
+      position: absolute;
+      display: inline-block;
+      width: 150px;
+      height: 177px;
+      line-height: 0px;
+      border: 1.5px solid #00451f;
+      border-radius: 85.5px;
+      left: 250px;
+      top: 215px;
+      z-index: 5px;
+}
+
+.right-foot {
+    background-color: black;
+    position: absolute;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 0px;
+    border: 4.5px solid black;
+    border-bottom: 1.5px;
+    border-top-right-radius: 50.5px;
+    border-top-left-radius: 50.5px;
+    left: 252px;
+    top: 362px;
+}
+
+.left-foot {
+    background-color: black;
+    position: absolute;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 0px;
+    border: 4.5px solid black;
+    border-bottom: 1.5px;
+    border-top-right-radius: 50.5px;
+    border-top-left-radius: 50.5px;
+    left: 326px;
+    top: 362px;
+}
+
+.bunda {
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 0px;
+    border: 95.5px solid transparent;
+    border-radius: 65.5px;
+    border-top: 126.5px solid white;
+    left: 220px;
+    top: 190px;
+    z-index: 10px
+}
+
+.orr {
+    position: absolute;
+    display: inline-block;
+    width: 0px;
+    height: 40px;
+    line-height: 5px;
+    border: 22.5px solid transparent;
+    border-radius: 66.5px;
+    border-top: 25.5px solid black;
+    left: 303px;
+    top: 302px;
+    z-index: 10px
+}
+
+.right-eye {
+    background-color: black;
+      position: absolute;
+      display: inline-block;
+      width: 10px;
+      height: 11px;
+      line-height: 0px;
+      border: 4.5px solid black;
+      border-radius: 17.5px;
+      left: 345px;
+      top: 238px;
+}
+
+.left-eye {
+  background-color: black;
+  position: absolute;
+  display: inline-block;
+  width: 10px;
+  height: 11px;
+  line-height: 0px;
+  border: 4.5px solid black;
+  border-radius: 17.5px;
+  left: 293px;
+  top: 238px;
+}
+
+.bg {
+  position: relative;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  left: 300px;
+  top: 300px;
+  opacity: 0.5;
+}
